@@ -2,6 +2,8 @@
 
 ## Description
 
+This assignment uses NOSQL to make a social media api. Using mongoose, moment, and express there is an application that is made to be able to get, put, delete, and post users, friends, thoughts, and reactions. 
+
 ## User Story
 
 ```md
