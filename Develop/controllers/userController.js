@@ -4,50 +4,50 @@ module.exports = {
     async getAllUser (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
     async getOneUser (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
     async createUser (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
     async updateUser (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
     async deleteUser (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
     async addFriend (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
     async deleteFriend (req, res) {
         try {
 
-        } catch {
-            
+        } catch (err) {
+            res.status(500).json(err);
         }
     },
 } 
